@@ -154,7 +154,7 @@ function updateTimerDisplay() {
 }
 
 function clearGameBoard() {
-  const {gameBoard} = game; // have no idea what is this
+  const {gameBoard} = game;
   while (gameBoard.firstChild) {
     //clear clicking handler
     gameBoard.firstChild.removeEventListener('click', handleCardFlip);
